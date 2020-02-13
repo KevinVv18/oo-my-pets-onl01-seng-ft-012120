@@ -73,12 +73,7 @@ class Owner
   end
   
 def sell_pets
-    .map do |instances|
-      instances.each do |pet|
     
-      end
-      instances.clear
-    end
   end
  
 
