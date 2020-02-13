@@ -1,16 +1,16 @@
 require 'pry'
 
 class Owner
-  attr_reader :species
-  attr_accessor :name, :pets
+  attr_reader :species, :name
+  attr_accessor :dog, :cat, :pets
   
 @@all = []
 
-  def initialize(species)
-   
+  def initialize(name)
+    @name = name
     @pets = pets = {:dogs => [], :cats => []}
     @@all << self
-    @species = species
+    @species = "human"
     
   end 
   
@@ -72,17 +72,7 @@ class Owner
     end
   end
 
-
-    
-
-  def sell_pets
-    @pets.collect do |species, instances|
-      instances.each do |pet|
-        pet.mood = "nervous"
-      end
-      instances.clear
-    end
-  end
+ 
 
   def list_pets
     "I have #{Dog.all.length} dog(s), and #{Cat.all.length} cat(s)."
