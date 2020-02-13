@@ -78,7 +78,7 @@ class Owner
  def sell_pets
     @pets.collect do |species|
       if species == Dog
-  
+  end
 
   def list_pets
     "I have #{Dog.all.length} dog(s), and #{Cat.all.length} cat(s)."
