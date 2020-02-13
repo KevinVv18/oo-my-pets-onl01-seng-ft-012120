@@ -73,7 +73,7 @@ class Owner
   end
   
 def sell_pets
-    @pets.collect do |instances|
+    @pets.select do |instances|
       instances.each do |pet|
     
       end
