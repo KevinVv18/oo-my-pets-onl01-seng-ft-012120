@@ -82,6 +82,7 @@ def sell_pets
     pets.map |pets|
 
 end
+end
   pets.clear
   
 end
