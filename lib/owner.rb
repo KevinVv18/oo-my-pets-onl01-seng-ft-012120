@@ -80,7 +80,7 @@ def sell_pets
   Dog.all.each  do |dog, pets|
     dog.mood = 'nervous'
     pets.map |pets|
-  end
+
 end
   pets.clear
   
