@@ -61,15 +61,17 @@ class Owner
   end
     
     def walk_dogs
-    Dog.all.each do |dog|
+    if Dog.all.each do |dog|
       dog.mood = 'happy'
     end
   end
+  end
 
   def feed_cats
-    Cat.all.each do |cat|
+  if  Cat.all.each do |cat|
       cat.mood = 'happy'
     end
+  end
   end
   
 def sell_pets
