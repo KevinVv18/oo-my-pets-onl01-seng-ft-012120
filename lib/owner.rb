@@ -84,7 +84,7 @@ def sell_pets
 
   def list_pets
     "I have #{Dog.all.length} dog(s), and #{Cat.all.length} cat(s)."
-    binding.pry
+    
   end
 
 end
