@@ -83,8 +83,11 @@ def sell_pets
 end
       Cat.all.each do |cat| 
       cat.reset_all 
+      Dog.all.each  do |dog|
+    dog.reset_all
       
-      
+  end
+end 
   
 end
   
