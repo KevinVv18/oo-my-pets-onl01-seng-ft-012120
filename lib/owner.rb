@@ -81,11 +81,7 @@ def sell_pets
     dog.mood = 'nervous'
   end
 end
-     Dog.all.map  do |dog.reset_all| 
-    Cat.all.map do  |cat.reset_all| 
-      
-  end
-end
+
 end 
   
     
